@@ -1,0 +1,93 @@
+html, body {
+	background-color: #ffffff;
+    font-size: 0.9em;
+    font-family: "Computer Modern";
+    margin: 0;
+    padding: 0;
+}
+
+@fontface {
+	font-family: Computer Modern;
+	src: fonts\cm-unicode-0.7.0\cmunrm.ttf;
+	font-weight: normal;
+}
+
+@fontface {
+	font-family: Computer Modern Menu;
+	src: fonts\cm-unicode-0.7.0\cmunbmr.ttf;
+	font-weight: normal;
+}
+
+#galleryDiv {
+	display: inline-block;
+	width: auto;
+    height: auto;
+}
+
+
+.hexagon {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    visibility: hidden;
+    width: 400px;
+    height: 200px;
+    transform: rotate(120deg);
+    margin: 0 -138px -98px -85px; /*background:rgba(255,0,0,0.5)*/
+}
+
+.outer {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg); /*background:rgba(0,255,0,0.5)*/
+}
+
+.inner {
+    overflow: hidden;
+    position: relative;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    background: #0000ff /*url(img/team.png)*/ 50% 50% no-repeat; /*opacity:0.5*/
+}
+
+.textWrapper {
+    overflow: hidden;
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    width: 235px;
+    height: 200px;
+    z-index: 500;
+    background: rgba(255,255,255,0.75); /*border:1px solid black; top:0px;*/
+    transition: all 0.2s;
+}
+
+.text {
+	font-weight: bold;
+    font-size: 14px;
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    width: 130px;
+    height: 135px;
+    z-index: 500;
+    /*border:1px solid red;*/
+}
+
+.inner:hover .textWrapper {
+    top: 140px;
+}
+
+
+.even {
+    margin-top: 102px;
+}
+
+.row {
+    clear: left;
+	width: 940px;
+}

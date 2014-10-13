@@ -1,0 +1,256 @@
+/* CSS Document */
+body {
+	background-image:url(../img/bg.png);
+	background-repeat:repeat;
+}
+
+* {
+	margin:0;
+	padding:0;
+	font-family: Segoe UI,Tahoma,Arial,Verdana,sans-serif;
+}
+
+.Blue {
+	background-color:#66ABCD;
+}
+
+/* Header Styling */
+.HeaderContainer {
+	position:relative;
+	background-color:#66ABCD;
+	background-repeat:no-repeat;
+	width:100%;
+	height:165px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.Header {
+	position:relative;
+	display:block;
+	background-image:url(../img/banner.png);
+	height:165px;
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.Like {
+	display:inline-block;
+	float:left;
+}
+
+.Follow {
+	display:inline-block;
+	margin-left:5px;
+	height:20px;
+}
+
+.LogoContainer {
+	padding-top:7px;
+	padding-bottom:11px;
+}
+
+/* Menu Styling */
+.MenuContainer {
+	height:45px;
+	width:100%;
+	background-color:#FFF;
+}
+
+.Menu {
+	height:45px;
+	line-height:45px;
+	margin-left:auto;
+	margin-right:auto;
+	width:900px !important;
+	text-align:center;
+}
+
+.Menu table {
+	border-collapse:collapse;
+	margin:0 auto;
+	text-align:left;
+	width:100%;
+}
+
+.Menu ul {
+	text-align:center;
+	height:45px;
+}
+
+.Menu ul li {
+	position:relative;
+	list-style:none;
+	display:inline-block;
+	background-color:transparent;
+	color:#FFF;
+	float:left;
+}
+
+.Menu ul li a {
+	display:block;
+	height:45px;
+	line-height:45px;
+	text-align:center;
+	float:left;
+	padding-left:59px;
+	padding-right:59px;
+	margin-left:5px;
+	margin-right:5px;
+	font-size:16px;
+	text-decoration:none;
+	color:black;
+	/*width:82px;*/
+}
+
+.MEffect {
+	position:absolute;
+	color:white !important;
+	background-color:#66ABCD;
+	opacity:0;
+	filter:alpha(opacity=0);
+	left:0;
+}
+
+.first {
+	color:#66ABCD;
+}
+
+.Home {
+	position:relative;
+	background-image:url(../img/home.jpg);
+	background-repeat:no-repeat;
+	width:900px;
+	height:609px;
+}
+
+/* Content Styling */
+.Content {
+	width:900px;
+	height:auto;
+	background-color:transparent;
+	margin-left:auto;
+	margin-right:auto; 
+}
+
+/* Footer Styling */
+.FooterContainer {
+	position:relative;
+	width:100%;
+	bottom:0;
+	background-color:#66ABCD;
+	border-top:15px solid #FFF;
+}
+	
+.Footer {
+	width:900px;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:#66ABCD;
+	height:170px;
+}
+
+.FooterLinks {
+	position:relative;
+	margin-left:10px;
+	top:6px;
+	color:#E6E8FA;
+	font-size:12px;
+}
+
+.FooterLinks a {
+	text-decoration:none;
+	color:#E6E8FA;
+	font-size:12px;
+}
+
+.FooterLinks a:hover {
+	text-decoration:underline;
+}
+
+.FooterLogosContainer {
+	height:100px;
+	line-height:40px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.FooterLogosContainer table {
+	border-collapse:collapse;
+	margin:0 auto;
+	text-align:left;
+}
+
+.FooterLogos {
+	text-align:center;
+	height:100px;
+}
+
+.FooterLogos li {
+	position:relative;
+	display:inline-block;
+	float:left;	
+	list-style:none;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.FLogo {
+	background-repeat:no-repeat;
+	left:0px;
+	opacity:0.65;
+	filter:alpha(opacity=65);
+}
+
+.TopSponsorContainer {
+	width:269px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.TSC {
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border:#FFF 3px dotted;
+	width:179px;
+	margin-top:6px;
+	height:96px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.TopSponsor {
+	position:relative;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(../img/WEEFLogoTop.png);
+	background-repeat:no-repeat;
+	height:86px;
+	margin-top:5px;
+	width:169px;
+}
+
+.Label {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	color:white;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.Copyright {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:20px;
+	top:12px;
+	color:#E6E8FA;
+	font-style:italic;
+	font-size:12px;
+	text-align:center;
+}
