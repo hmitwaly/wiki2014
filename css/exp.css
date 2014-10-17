@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#container {
+	position: relative;
+	display:inline-block;
+	width: 900px;
+	height: 600px;
+	overflow: hidden;
+	left:10%;
+	top:0%;
+	margin-top: 100px;
+    margin-left: 50px;
+}
+
+div#t1,#t2,#t3,#t4 {
+	width:450px;
+	height:300px;
+	position:absolute;
+}
+
+div#t1  {
+	left:0px;
+	top:0px;
+}
+
+div#t2 {
+	left:450px;
+	top:0px;
+}
+
+div#t3 {
+	left:0px;
+	top:300px;
+}
+
+div#t4 {
+	background-color:white;
+	left:450px;
+	top:300px;
+}
+
+div span {
+	display: none;
+}
+
+.hide {
+	display: none !important;
+}
+
+div#t1:hover span{
+	display:block;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-top:-50px;
+	margin-left:-65px;
+	width:150px;
+	height:50px;
+	z-index:1;
+	border:1px solid #0F0;
+	background:#999;
+	border-radius:10px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:50px;
+}
+
+div#t2:hover span {
+	display:block;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-top:-50px;
+	margin-left:-65px;
+	width:150px;
+	height:50px;
+	z-index:1;
+	border:1px solid #0F0;
+	background:#999;
+	border-radius:10px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:50px;
+}
+
+
+div#t3:hover span {
+	display:block;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-top:-50px;
+	margin-left:-65px;
+	width:150px;
+	height:50px;
+	z-index:1;
+	border:1px solid #0F0;
+	background:#999;
+	border-radius:10px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:50px;
+}
+
+div#t4:hover span {
+	display:block;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-top:-50px;
+	margin-left:-65px;
+	width:150px;
+	height:50px;
+	z-index:3;
+	border:1px solid #0F0;
+	background:#999;
+	border-radius:10px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:50px;
+}
+
+#img1,#img2,#img3,#img4 {
+	height:100%;
+	width: 100%;
+	size:landscape;
+}
+
+img {
+	opacity:1.0;
+}
+
+#text1,#text2,#text3,#text4 {
+	text-outline:#000; 
+	z-index:-100;
+	display:none;
+	opacity:0.0;
+	max-height:100%;
+	max-width:90%;
+	text-align:center;
+	font-size:22	px;
+}
+
+#tt1,#tt2,#tt3,#tt4 {
+	display:none;
+	opacity:0.0;
+	max-width:30px;
+	max-height:30px;
+	position:absolute;
+	right:20px;
+	top:20px;
+	cursor:pointer;
+	z-index:100;
+}
+
+p {
+	font-size:23px;
+}
