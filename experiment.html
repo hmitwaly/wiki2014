@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/icons.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" type="text/css" href="css/exp.css" />
+	<script src="js/modernizr.custom.js"></script>
+    <noscript>Your browser does not support JavaScript!</noscript>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+<script type="text/jscript">
+$(function(){
+    $("#t1").click(function(){
+		var ids = ["#t1","#t2","#t3","#t4"];
+		for (k=0;k<ids.length;k++) {
+			$(ids[k]).css("z-index","0")
+		}
+		$(this).css("z-index","10");
+			$(this).animate({"width":"100%","height":"100%"},1200);
+			document.getElementById("s1").classList.add("hide");
+			$("#img1").animate({opacity:"0"},700);
+			setTimeout(function() { $("#img1").css("display","none");},700);
+			$("#tt1").css("display","block");
+			setTimeout(function() { $("#tt1").animate({opacity:1},400);},1000);
+			$("#text1").css("display","block");
+			$("#text1").animate({opacity:"1"},1200);
+		
+    });
+	
+	$("#tt1").click(function() {
+			$("#t1").animate({"width":"50%","height":"50%"},1200);
+			setTimeout(function() {document.getElementById("s1").classList.remove("hide");},1300);
+			setTimeout(function() { $("#img1").css("display","block");},500);
+			setTimeout(function() { $("#img1").animate({opacity:"1"},700);},500);
+			$("#tt1").animate({opacity:"0"},400);
+			setTimeout(function() { $("#tt1").css("display","none");},400);
+			$("#text1").animate({opacity:"0"},1200);
+			setTimeout(function() { $("#text1").css("display","none");},1200);
+		
+    });
+	
+	$("#t2").click(function(){
+		var ids = ["#t1","#t2","#t3","#t4"];
+		for (k=0;k<ids.length;k++) {
+			$(ids[k]).css("z-index","0")
+		}
+		var id = $(this).attr("id");
+		$(this).css("z-index","10");
+			$("#t2").animate({"left":"0%","width":"100%","height":"100%"},1200);
+			document.getElementById("s2").classList.add("hide");
+			$("#img2").animate({opacity:"0"},700);
+			setTimeout(function() { $("#img2").css("display","none");},700);
+			$("#tt2").css("display","block");
+			setTimeout(function() { $("#tt2").animate({opacity:1},400);},1000);
+			$("#text2").css("display","block");
+			$("#text2").animate({opacity:"1"},2000);
+	});
+	
+	$("#tt2").click(function(){
+			$("#t2").animate({"left":"50%","width":"50%","height":"50%"},1200);
+			setTimeout(function() {document.getElementById("s2").classList.remove("hide");},1300);
+			setTimeout(function() { $("#img2").css("display","block");},500);
+			setTimeout(function() { $("#img2").animate({opacity:"1"},700);},500);
+			$("#tt2").animate({opacity:"0"},400);
+			setTimeout(function() { $("#tt2").css("display","none");},400);
+			setTimeout(function() { $("#text2").css("display","none");},1200);
+			$("#text2").animate({opacity:"0"},1200);
+	});
+	 
+	 $("#t3").click(function(){
+		var ids = ["#t1","#t2","#t3","#t4"];
+		for (k=0;k<ids.length;k++) {
+			$(ids[k]).css("z-index","0")
+		}
+		$(this).css("z-index","10");
+			$("#t3").animate({"top":"0%","width":"100%","height":"100%"},1200);
+			document.getElementById("s3").classList.add("hide");
+			$("#img3").animate({opacity:"0"},700);
+			setTimeout(function() { $("#img3").css("display","none");},700);
+			$("#tt3").css("display","block");
+			setTimeout(function() { $("#tt3").animate({opacity:1},400);},1000);
+			$("#text3").css("display","block");
+			$("#text3").animate({opacity:"1"},2000);
+	});	
+	$("#tt3").click(function(){
+		var id = $(this).attr("id");
+			$("#t3").animate({"top":"50%","width":"50%","height":"50%"},1200);
+			setTimeout(function() {document.getElementById("s3").classList.remove("hide");},1300);
+			setTimeout(function() { $("#img3").css("display","block");},500);
+			setTimeout(function() { $("#img3").animate({opacity:"1"},700);},500);
+			$("#tt3").animate({opacity:"0"},400);
+			setTimeout(function() { $("#tt3").css("display","none");},400);
+			setTimeout(function() { $("#text3").css("display","none");},1200);
+			$("#text3").animate({opacity:"0"},1200);
+	 });
+	 
+	 $("#t4").click(function(){
+		var ids = ["#t1","#t2","#t3","#t4"];
+		for (k=0;k<ids.length;k++) {
+			$(ids[k]).css("z-index","0")
+		}
+		$(this).css("z-index","10");
+			$("#t4").animate({"top":"0%","left":"0%","width":"100%","height":"100%"},1200);
+			document.getElementById("s4").classList.add("hide");
+			$("#img4").animate({opacity:"0"},700);
+			setTimeout(function() { $("#img4").css("display","none");},700);
+			$("#tt4").css("display","block");
+			setTimeout(function() { $("#tt4").animate({opacity:1},400);},1000);
+			$("#text4").css("display","block");
+			$("#text4").animate({opacity:"1"},2000);
+	});
+		
+	$("#tt4").click(function(){
+			$("#t4").animate({"top":"50%","left":"50%","width":"50%","height":"50%"},1200);			
+			setTimeout(function() {document.getElementById("s4").classList.remove("hide");},1300);
+			setTimeout(function() { $("#img4").css("display","block");},500);
+			setTimeout(function() { $("#img4").animate({opacity:"1"},700);},500);
+			$("#tt4").animate({opacity:"0"},400);
+			setTimeout(function() { $("#tt4").css("display","none");},400);
+			setTimeout(function() { $("#text4").css("display","none");},1200);
+			$("#text4").animate({opacity:"0"},1200);
+	 });
+});
+</script>
+</head>
+<body>
+	<div id="st-container" class="st-container">			
+		<nav class="st-menu st-effect-2" id="menu-2">
+			<h2></h2>
+			<ul>
+				<li><a href="outline.html">Project Outline</a></li>
+				<li><a href="experiment.html">Experiments</a></li>
+				<li><a href="team.html">Team</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="sponsors.html">Sponsors</a></li>
+                   <li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>			
+          <div class="st-pusher">
+              <div class="st-content">
+                  <div class="st-content-inner">			
+                      <div class="headerContainer">
+                          <div class="header">
+                              <div id="st-trigger-effects">
+                                  <button data-effect="st-effect-2"><img src="img/menuButton.png" height=138px></button>
+                              </div>                             
+                          </div>        					   						        
+                      </div>
+                      
+                      <div class="footer"><body>
+<div id="container" style="color:#000">
+<div><div id="t1" style="background-image:url(img/banner_what-we-do.jpg)"><img id="img1" src="img/how-we-do.jpg" style="z-index:2"/><div id="text1"><h1>What we do</h1><p>Our aim was to create a drug delivery agent that could target cancer cells, enter them, and detroy them. We based our project on past research on boron neutron capture therapy. If we could find some way to introduce boron 10 into cancerous cells, then theoretically we could irradiate the boron with low energy neutrons (relatively harmelss to the rest of the body) causing spontaneous nuclear decay and destructive radiation in a localized area, hopefully destroying the cancerous cell, and not too many cells around it. We coated 5 nm gold nanoparticles with alternating layers of cationic and anionic polyelectrolytes. Cationic layers included BPA-Poly(fluorescein isothiocyanate allylamine hydrochloride), our boron was contained within this compound, as well as a flourescent agent to aid with characterization. Anionic layers included Borono-Poly(styrene sulfonate) Sodium Salt (B-PSS) B-FITC-PAH) and contained additional boron.</p></div><span id="s1">This is what we do</span><div id="boxx"></div></div><img src="img/071857-green-metallic-orb-icon-alphanumeric-crossing.png" id="tt1"/></div>
+
+<div><div id="t2" style="background-color:#FFF"><img id="img2" src="img/data.jpg" /><div id="text2"><h1>Characterization</h1><ul><p>
+			<li style="font-size:20px">Dynamic Light Scattering (DLS) was used to characterize particle size and zeta potential. Zeta potential initially increases after the second layer, then gradually decreases</li>
+			<img src="img/Picture1.png" style="width:120px" style="height:120px"/>
+			<li style="font-size:20px">Transmission Electron Microscopy (TEM) was used to confirm the presence of boron and support DLS results. Results show particles of expected size.
+			the small dark dots embedded in the larger particles confirm the presence of boron. Significant particle aggregation was observed, consistent with observed zeta potential</li>
+			<img src="img/Picture2.jpg" style="width:120px" style="height:120px"/>
+		</ul></p></div><span id="s2">Characterization</span></div><img src="img/071857-green-metallic-orb-icon-alphanumeric-crossing.png" id="tt2" /></div>
+
+<div><div id="t3" style="background:url(img/steps.jpg) center" style="background-size:100% 100%"><img src="img/images.jpe" id="img3" /><div id="text3"><h1>Our Next Steps</h1><p>Prior to conjugating these particles to our DNA walker (last years project), we will use AFM to characterize the walkers. It is our hope that the successful conjugation of these particles will demonstrate the particles versatility and possible usefulness as a drug delivery agent. We also hope to conjugate biotinylated streptavidin and quantum dots to the walker via "walking" and to characterize this conjugation. Following this we will begin working on a brand new project to be determined by the research team</p></div><span id="s3">Next Steps</span></div><img src="img/071857-green-metallic-orb-icon-alphanumeric-crossing.png" id="tt3" /></div>
+
+<div><div id="t4"><img src="img/10703601_10152278458091975_8894524621351508531_n.jpg" id="img4" /><div id="text4"><div class="bodyContent"><i><b>This is where the text goes</b></i></div></div><span id="s4">Protocols</span></div><img src="img/071857-green-metallic-orb-icon-alphanumeric-crossing.png" id="tt4" /></div>
+</div>
+</body></div>                                              
+                  </div> <!-- st-content-inner -->
+              </div> <!-- st-content -->
+          </div> <!-- st-pusher -->
+     </div> <!-- st-container -->
+	<script src="js/classie.js"></script>
+	<script src="js/sidebarEffects.js"></script>
+</body>
+</html>
