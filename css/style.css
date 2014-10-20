@@ -10,17 +10,28 @@
 }
 
 body {
-	color: #9d1ee2;
+	color: #000;
 	font-weight: 300;
 	font-family: CMU Serif;
 }
 
+figcaption {
+	font-size:small;
+}
+
 .bodyContent {
-	margin-left: 85px;
+	margin-left: 10%;
 	margin-bottom: 40px;
+	margin-right: 10%;
 }
 
 h1 {
+	color: #9791fe;
+	font-family: CMU Sans Serif;
+}
+
+h2 {
+	font-weight: bold;
 	font-family: CMU Sans Serif;
 }
 
