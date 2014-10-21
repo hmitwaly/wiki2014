@@ -1,27 +1,25 @@
-html, body {
-	background-color: #ffffff;
+html {
+    background-color: #ffffff;
     font-size: 0.9em;
-    font-family: "Computer Modern";
+    font-family: "Arial", sans-serif;
     margin: 0;
     padding: 0;
 }
 
-@fontface {
-	font-family: Computer Modern;
-	src: fonts\cm-unicode-0.7.0\cmunrm.ttf;
-	font-weight: normal;
-}
-
-@fontface {
-	font-family: Computer Modern Menu;
-	src: fonts\cm-unicode-0.7.0\cmunbmr.ttf;
-	font-weight: normal;
+body {
+    background-color: #ffffff;
+    font-size: 0.9em;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 #galleryDiv {
-	display: inline-block;
-	width: auto;
+	margin-left: 5%;
+    display: inline-block;
+    width: auto;
     height: auto;
+	margin-bottom: 40px;
 }
 
 
@@ -30,10 +28,10 @@ html, body {
     float: left;
     overflow: hidden;
     visibility: hidden;
-    width: 400px;
-    height: 200px;
+    width: 274px;
+    height: 137px;
     transform: rotate(120deg);
-    margin: 0 -138px -98px -85px; /*background:rgba(255,0,0,0.5)*/
+    margin: 0 -94px -67px -58px; /*background:rgba(255,0,0,0.5)*/
 }
 
 .outer {
@@ -47,7 +45,7 @@ html, body {
     overflow: hidden;
     position: relative;
     visibility: visible;
-    width: 100%;
+    width: 274px;
     height: 100%;
     transform: rotate(-60deg);
     background: #0000ff /*url(img/team.png)*/ 50% 50% no-repeat; /*opacity:0.5*/
@@ -56,38 +54,71 @@ html, body {
 .textWrapper {
     overflow: hidden;
     position: absolute;
-    top: 200px;
-    left: 80px;
-    width: 235px;
-    height: 200px;
+    top: 137px;
+    left: 55px;
+    width: 160px;
+    height: 137px;
     z-index: 500;
     background: rgba(255,255,255,0.75); /*border:1px solid black; top:0px;*/
     transition: all 0.2s;
 }
 
 .text {
-	font-weight: bold;
-    font-size: 14px;
+    font-weight: bold;
+    font-size: 12px;
     overflow: hidden;
     position: absolute;
-    top: 20px;
-    left: 60px;
-    width: 130px;
-    height: 135px;
+    top: 14px;
+    left: 41px;
+    width: 89px;
+    height: 92px;
     z-index: 500;
     /*border:1px solid red;*/
 }
 
 .inner:hover .textWrapper {
-    top: 140px;
+    top: 96px;
 }
 
 
 .even {
-    margin-top: 102px;
+    margin-top: 70px;
 }
 
 .row {
     clear: left;
-	width: 940px;
+    width: 900px;
+    float:left;
+}
+
+.boxbio {
+    height: auto;
+    width: 800px;
+    display: inline-block;
+}
+
+.boximage {
+    max-width:600px;
+    display: block;
+    float: left;
+	
+}
+
+.boxtext {
+    margin-left:20px;
+    display: block;
+    float: right;
+    width:100%;
+    height: 100%;
+    max-width: 180px;
+    overflow-y: visible;
+}
+
+#stealthy {
+    display:none;
+}
+
+.galleryDivs {
+    display:inline-block;
+    margin-bottom:50px;
 }
