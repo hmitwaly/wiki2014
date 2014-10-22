@@ -11,6 +11,11 @@ var galleries = {
       , bio: 'Program: Nanotechnology Engineering; Interests: Being a member of UWDNA and sports.'
     },
 	{
+        name: 'Adrian Chan'
+      , image: 'img/team/AdrianChan.jpg'
+      , bio: 'Program: Nanotechnology Engineering; Interests: Reading, Tetris, and powerlifting.'
+    },
+	{
         name: 'Mary Chen'
       , image: 'img/team/Mary_Chen.jpg'
       , bio: 'Program: Nanotechnology Engineering; Interests: Painting and playing piano.'
@@ -30,6 +35,11 @@ var galleries = {
       , image: 'img/team/Rama_Ferguson.jpg'
       , bio: 'Program: Nanotechnology Engineering; Interests: Badminton and video games.'
     },	
+	{
+        name: 'Elaine Huang'
+      , image: 'img/team/ElaineHuang.jpg'
+      , bio: 'Program: Biomedical Engineering; Interests: Art, basketball, and volleyball.'
+    },
 	{
         name: 'Kate Illing'
       , image: 'img/team/Kate_Illing.JPG'
