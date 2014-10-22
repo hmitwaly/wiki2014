@@ -38,7 +38,12 @@ var galleries = {
 	{
         name: 'Emre Koc'
       , image: 'img/team/Emre_Koc.jpg'
-      , bio: 'Program: Nanotechnology Engineering; Interests: "Exploring the wonders of Nanotechnology in the medical field, working in a team of motivated people to make new innovations."'
+      , bio: 'Program: Nanotechnology Engineering; Interests: Exploring the wonders of Nanotechnology in the medical field, working in a team of motivated people to make new innovations.'
+    },
+	{
+        name: 'Sean Lazaro'
+      , image: 'img/team/seanclazaro.jpg'
+      , bio: 'Program: Biomedical Engineering; Interests: Money, friends, and love.'
     },
 	{
         name: 'Hossam Mitwaly'
@@ -54,6 +59,11 @@ var galleries = {
         name: 'Vincent Young'
       , image: 'img/team/Vincent_Young.jpg'
       , bio: 'Program: Biomedical Engineering; Interests: Medical imaging, playing music, magic tricks.'
+    },
+	{
+        name: 'Oliver Wang'
+      , image: 'img/team/Oliver_Wang.jpg'
+      , bio: 'Program: Nanotechnology Engineering; Interests: Music, swimming, and detective stories.'
     }],
     },
 	year2: {
@@ -119,14 +129,19 @@ var galleries = {
         galName: "Third Academic Year",
         people: [
 		{
-            name: 'Elizabeth Salsberg',
-            image: 'img/team/Elizabeth_Salsberg.JPG',
-            bio: 'Program: Nanotechnology Engineering; Interests: Semiconductor materials and devices, Sports: soccer, ice hockey, and conditioning.'
+            name: 'Rhiannon Lohr',
+            image: 'img/team/Rhiannon_Lohr.jpg',
+            bio: 'Program: Nanotechnology Engineering; Interests: Hiking, playing the saxophone, and nature.'
         },
 		{
             name: 'Lori Pollit',
             image: 'img/team/Lori_Pollit.jpg',
             bio: 'Program: Nanotechnology Engineering; Interests: Nanotheranostics and running!'
+        },
+		{
+            name: 'Elizabeth Salsberg',
+            image: 'img/team/Elizabeth_Salsberg.JPG',
+            bio: 'Program: Nanotechnology Engineering; Interests: Semiconductor materials and devices, Sports: soccer, ice hockey, and conditioning.'
         },
 		{
             name: 'Kevin Thai',
