@@ -61,6 +61,11 @@ var galleries = {
       , bio: 'Program: Nanotechnology Engineering; Interests: Eating, coding, and hanging out with friends.'
     },
 	{
+        name: 'Adib Saleh'
+      , image: 'img/team/AdibSaleh.jpg'
+      , bio: 'Program: Nanotechnology Engineering; Interests: Programming languages and sports.'
+    },
+	{
         name: 'Faisal Tahiri'
       , image: 'img/team/Faisal_Tahiri.PNG'
       , bio: 'Program: Biomedical Engineering; Interests: Neuroscience, athletics, philosophy.'
