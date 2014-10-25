@@ -84,6 +84,11 @@ table th {
 	color:#ffffff;
 }
 
+#sponsors td {
+	border:none;
+	text-align:center;
+}
+
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .clearfix:before,
 .clearfix:after {
