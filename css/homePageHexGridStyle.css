@@ -69,8 +69,8 @@ body {
 }
 
 .hexagon-in2 {
-	-webkit-box-shadow: inset 0 0 0 200px #9791FE;
-	box-shadow: inset 0 0 0 200px #9791FE;
+	-webkit-box-shadow: inset 0 0 0 200px #c2beff;
+	box-shadow: inset 0 0 0 200px #c2beff;
 	
 	overflow: hidden;
 	width: 100%;
@@ -96,7 +96,12 @@ body {
 	transition: all 0.5s ease;
 }
 
-.hexagon-in2:hover {
+#uwDNAlogo {
 	-webkit-box-shadow: inset 0 0 0 200px #6E67FD;
-	box-shadow: inset 0 0 0 200px #6E67FD;
+	box-shadow: inset 0 0 0 200px #9791FE;
+}
+
+.hexagon-in2:hover {
+	-webkit-box-shadow: inset 0 0 0 200px #9791FE;
+	box-shadow: inset 0 0 0 200px #9791FE;
 }
