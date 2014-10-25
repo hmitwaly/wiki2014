@@ -46,6 +46,11 @@ var galleries = {
       , bio: 'Program: Nanotechnology Engineering; Interests: Kayaking, reading, knitting.'
     },
 	{
+        name: 'Natisa Jeyakanthan'
+      , image: 'img/team/NatisaJeyakanthan.jpg'
+      , bio: 'Program: Biomedical Engineering; Interests: Figure skating, reading, and travelling.'
+    },
+	{
         name: 'Emre Koc'
       , image: 'img/team/Emre_Koc.jpg'
       , bio: 'Program: Nanotechnology Engineering; Interests: Exploring the wonders of Nanotechnology in the medical field, working in a team of motivated people to make new innovations.'
@@ -56,9 +61,19 @@ var galleries = {
       , bio: 'Program: Biomedical Engineering; Interests: Money, friends, and love.'
     },
 	{
+        name: 'Lukas Marek'
+      , image: 'img/team/LukasMarek.jpg'
+      , bio: 'Program: Nanotechnology Engineering; Interests: Hockey and technology.'
+    },
+	{
         name: 'Hossam Mitwaly'
       , image: 'img/team/Hossam_Mitwaly.jpg'
       , bio: 'Program: Nanotechnology Engineering; Interests: Eating, coding, and hanging out with friends.'
+    },
+	{
+        name: 'Arun Ranganathan'
+      , image: 'img/team/ArunRanganathan.jpg'
+      , bio: 'Program: Nanotechnology Engineering; Interests: Designing, programming, and staying fit.'
     },
 	{
         name: 'Adib Saleh'
@@ -69,6 +84,11 @@ var galleries = {
         name: 'Faisal Tahiri'
       , image: 'img/team/Faisal_Tahiri.PNG'
       , bio: 'Program: Biomedical Engineering; Interests: Neuroscience, athletics, philosophy.'
+    },
+	{
+        name: 'Thomas Yang'
+      , image: 'img/team/ThomasYang.jpg'
+      , bio: 'Program: Nanotechnology Engineering; Interests: Discovering corny jokes and useless facts, food, and all kinds of sports (the more contact the better).'
     },
     {
         name: 'Vincent Young'
@@ -130,6 +150,11 @@ var galleries = {
             bio: 'Program: Nanotechnology Engineering; Interests: Medical research, nanoelectronics, quantum computing.'
         },
 		{
+            name: 'Bhoomi Patel',
+            image: 'img/team/BhoomiPatel.jpg',
+            bio: 'Program: Biomedical Science; Interests: Programming, hiking, music, and sports: Badminton, tennis, and cricket.'
+        },
+		{
             name: 'Jatin Patil',
             image: 'img/team/Jatin_Patil.jpg',
             bio: 'Program: Nanotechnology Engineering; Interests: Biking and hiking, music, video games.'
@@ -138,7 +163,17 @@ var galleries = {
             name: 'Aravind Ramaraju',
             image: 'img/team/Aravind_Ramaraju.jpg',
             bio: 'Program: Nanotechnology Engineering; Interests: Time travel, nanoelectronics, nanobiology, nanomanufacturing, and industrial applications of nanotechnology.'
-        }]
+        },
+		{
+            name: 'Nicholas Soucy',
+            image: 'img/team/Nicholas_Soucy.png',
+            bio: 'Program: Nanotechnology Engineering; Interests: Biological uses for nanotechnology, space exploration, and science fiction.'
+        },
+		{
+            name: 'Ian Stadelmann',
+            image: 'img/team/IanStadelmann.jpg',
+            bio: 'Program: Nanotechnology Engineering; Interests: Skiing, TV dramas (Game of Thrones!), EDM.'
+        },]
     },
     year3: {
         galName: "Third Academic Year",
@@ -170,6 +205,11 @@ var galleries = {
             name: 'Kerrin Mendler',
             image: 'img/team/KerrinMendler.JPG',
             bio: 'Program: Biology; Interests: Algal biofuels, website development, triathlon.'
+        },
+		{
+            name: 'David Nguyen',
+            image: 'img/team/David_Nguyen.jpg',
+            bio: 'Program: Biomedical Science; Interests: Playing tennis, salsa dancing, and science!'
         }]
     },
 	year5: {
