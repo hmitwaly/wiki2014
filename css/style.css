@@ -89,6 +89,10 @@ table th {
 	text-align:center;
 }
 
+#contact td {
+	border:none;
+}
+
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .clearfix:before,
 .clearfix:after {
