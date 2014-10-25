@@ -2,6 +2,46 @@
 //Strucuture of entries is as follows:
 //{galleries: name, [people: name, image, bio]}
 var galleries = {
+	teamLeads: {
+        galName: "Team Leads",
+        people: [
+	{
+            name: 'Nathan Chan',
+            image: 'img/team/Nathan_Chan.jpg',
+            bio: 'Research Team Leader; Program: 2A Nanotechnology Engineering; Interests: Introspective short stories and web comics, biologically-inspired nanotechnology, game developing.'
+    },	
+	{
+		name: 'W.T.David Lin',
+		image: 'img/team/WTDavid_Lin.JPG',
+		bio: 'Video Team Leader; Program: 2A Nanotechnology Engineering; Interests: Medical research, nanoelectronics, quantum computing.'
+	},
+	{
+            name: 'Rhiannon Lohr',
+            image: 'img/team/Rhiannon_Lohr.jpg',
+            bio: 'uwDNA Safety Officer; Program: 2B Nanotechnology Engineering; Interests: Hiking, playing the saxophone, and nature.'
+    },	
+	{
+            name: 'Kerrin Mendler',
+            image: 'img/team/KerrinMendler.JPG',
+            bio: 'Software Team Leader; Program: 3B Biology; Interests: Algal biofuels, website development, triathlon.'
+    },
+	{
+		name: 'Jatin Patil',
+		image: 'img/team/Jatin_Patil.jpg',
+		bio: 'Business Team Leader; Program: 2A Nanotechnology Engineering; Interests: Biking and hiking, music, video games.'
+	},	
+	{
+            name: 'Rachel Pautler',
+            image: 'img/team/Rachel_Pautler.jpg',
+            bio: 'uwDNA Team Leader; Program: 4A Nanotechnology Engineering; Interests: Bionanotechnology, biochemistry, materials science, medical applications of nanotechnology.'
+    },	
+	{
+		name: 'Lori Pollit',
+		image: 'img/team/Lori_Pollit.jpg',
+		bio: 'Lab Team Leader; Program: 2B Nanotechnology Engineering; Interests: Nanotheranostics and running!'
+	}
+	],
+    },
     year1: {
         galName: "First Academic Year",
         people: [
@@ -81,6 +121,11 @@ var galleries = {
       , bio: 'Program: Nanotechnology Engineering; Interests: Programming languages and sports.'
     },
 	{
+        name: 'Ai Lin Su'
+      , image: 'img/team/AilinSu.jpg'
+      , bio: 'Program: Biomedical Engineering; Interests: Animals, painting, crafting.'
+    },
+	{
         name: 'Faisal Tahiri'
       , image: 'img/team/Faisal_Tahiri.PNG'
       , bio: 'Program: Biomedical Engineering; Interests: Neuroscience, athletics, philosophy.'
@@ -118,12 +163,7 @@ var galleries = {
             name: 'Josh Broughton',
             image: 'img/team/Josh_Broughton.jpg',
             bio: 'Program: Biomedical Science; Interests: Running, music, and medicine.'
-        },
-		{
-            name: 'Nathan Chan',
-            image: 'img/team/Nathan_Chan.jpg',
-            bio: 'Program: Nanotechnology Engineering; Interests: Introspective short stories and web comics, biologically-inspired nanotechnology, game developing'
-        },
+        },		
 		{
             name: 'Andrew Hong',
             image: 'img/team/Andrew_Hong.JPG',
@@ -145,24 +185,19 @@ var galleries = {
             bio: 'Program: Nanotechnology Engineering; Interests: Software application development, guitar, furthering the potential of nanotechnology.'
         },
 		{
-            name: 'W.T.David Lin',
-            image: 'img/team/WTDavid_Lin.JPG',
-            bio: 'Program: Nanotechnology Engineering; Interests: Medical research, nanoelectronics, quantum computing.'
-        },
-		{
             name: 'Bhoomi Patel',
             image: 'img/team/BhoomiPatel.jpg',
             bio: 'Program: Biomedical Science; Interests: Programming, hiking, music, and sports: Badminton, tennis, and cricket.'
         },
 		{
-            name: 'Jatin Patil',
-            image: 'img/team/Jatin_Patil.jpg',
-            bio: 'Program: Nanotechnology Engineering; Interests: Biking and hiking, music, video games.'
-        },
-		{
             name: 'Aravind Ramaraju',
             image: 'img/team/Aravind_Ramaraju.jpg',
             bio: 'Program: Nanotechnology Engineering; Interests: Time travel, nanoelectronics, nanobiology, nanomanufacturing, and industrial applications of nanotechnology.'
+        },
+		{
+            name: 'Utkarshna Sinha',
+            image: 'img/team/UtkarshnaSinha.jpg',
+            bio: 'Program: Life Sciences; Interests: Biotechnology, research, and entrepreneurship.'
         },
 		{
             name: 'Nicholas Soucy',
@@ -179,16 +214,6 @@ var galleries = {
         galName: "Third Academic Year",
         people: [
 		{
-            name: 'Rhiannon Lohr',
-            image: 'img/team/Rhiannon_Lohr.jpg',
-            bio: 'Program: Nanotechnology Engineering; Interests: Hiking, playing the saxophone, and nature.'
-        },
-		{
-            name: 'Lori Pollit',
-            image: 'img/team/Lori_Pollit.jpg',
-            bio: 'Program: Nanotechnology Engineering; Interests: Nanotheranostics and running!'
-        },
-		{
             name: 'Elizabeth Salsberg',
             image: 'img/team/Elizabeth_Salsberg.JPG',
             bio: 'Program: Nanotechnology Engineering; Interests: Semiconductor materials and devices, Sports: soccer, ice hockey, and conditioning.'
@@ -201,11 +226,7 @@ var galleries = {
     },
     year4: {
         galName: "Fourth Academic Year",
-        people: [{
-            name: 'Kerrin Mendler',
-            image: 'img/team/KerrinMendler.JPG',
-            bio: 'Program: Biology; Interests: Algal biofuels, website development, triathlon.'
-        },
+        people: [		
 		{
             name: 'David Nguyen',
             image: 'img/team/David_Nguyen.jpg',
@@ -219,12 +240,8 @@ var galleries = {
             name: 'Matthew Mulvale',
             image: 'img/team/Matthew_Mulvale.jpg',
             bio: 'Program: Nanotechnology Engineering; Interests: Drug Delivery, regenerative medicine, photovoltaics, and fuel cells.'
-        },
-		{
-            name: 'Rachel Pautler',
-            image: 'img/team/Rachel_Pautler.jpg',
-            bio: 'Program: Nanotechnology Engineering; Interests: Bionanotechnology, biochemistry, materials science, medical applications of nanotechnology.'
-        }]
+        }
+		]
     },
 	advisors: {
         galName: "Academic Advisors",
