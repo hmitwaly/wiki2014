@@ -1,12 +1,12 @@
 @font-face {
     font-family: CMU Sans Serif;
-    src: url(fonts/cm-unicode-0.7.0/cmunss.ttf);
+    src: url(../fonts/cm-unicode-0.7.0/cmunss.ttf);
 	font-weight:bolder;
 }
 
 @font-face {
     font-family: CMU Serif;
-    src: url(fonts/cm-unicode-0.7.0/cmunrm.ttf);
+    src: url(../fonts/cm-unicode-0.7.0/cmunrm.ttf);
 }
 
 body {
