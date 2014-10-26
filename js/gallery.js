@@ -51,6 +51,11 @@ var galleries = {
       , bio: 'Program: Nanotechnology Engineering; Interests: Being a member of UWDNA and sports.'
     },
 	{
+        name: 'Zameer Bharwani'
+      , image: 'img/team/ZameerBharwani.jpg'
+      , bio: 'Program: Nanotechnology Engineering; Interests: Table tennis, running, and movies.'
+    },
+	{
         name: 'Adrian Chan'
       , image: 'img/team/AdrianChan.jpg'
       , bio: 'Program: Nanotechnology Engineering; Interests: Reading, Tetris, and powerlifting.'
@@ -208,7 +213,12 @@ var galleries = {
             name: 'Ian Stadelmann',
             image: 'img/team/IanStadelmann.jpg',
             bio: 'Program: Nanotechnology Engineering; Interests: Skiing, TV dramas (Game of Thrones!), EDM.'
-        },]
+        },
+		{
+            name: 'Max Xu',
+            image: 'img/team/MaxXu.jpg',
+            bio: 'Program: Nanotechnology Engineering; Interests: Violin and tennis.'
+        }]
     },
     year3: {
         galName: "Third Academic Year",
